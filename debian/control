@@ -1,0 +1,27 @@
+Source: ptask
+Section: unknown
+Priority: optional
+Maintainer: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
+Build-Depends: debhelper (>= 9),
+               asciidoc,
+               autotools-dev,
+               libjson-c-dev,
+Standards-Version: 3.9.6
+Homepage: http://wpitchoune.net/blog/ptask/
+Vcs-Git: git://anonscm.debian.org/collab-maint/ptask.git
+Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/ptask.git;a=summary
+
+Package: ptask
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}, 
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: ptask-dbg
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         ptask (= ${binary:Version})
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

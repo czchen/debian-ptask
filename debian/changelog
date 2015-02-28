@@ -1,0 +1,5 @@
+ptask (0.0.9-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Sat, 28 Feb 2015 22:26:00 +0800
